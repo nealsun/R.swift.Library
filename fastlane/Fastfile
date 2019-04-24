@@ -54,7 +54,7 @@ lane :release do |options|
   push_to_git_remote
 
   af_create_github_release(
-    owner: "mac-cain13",
+    owner: "nealsun",
     repository: "r.swift.library",
     tag_name: "v#{newVersion}",
     target_commitish: "master",
